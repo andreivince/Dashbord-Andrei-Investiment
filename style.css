@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(224, 224, 224);}
+.navbar {
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+}
+
+.navbar::after {
+    content: "";
+    position: fixed;
+    width: 204vh;
+    bottom: 866px;
+    left: 0;
+    height: 2px;
+    background: #c0c0c2;
+}
+
+.num {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6e52b9;
+}
+
+.bruto {
+    position: fixed;
+    left: 350px;
+    top: 15px;
+    font-size: 17px;
+    color: #c7c9cd;
+}
+
+.bruton {
+    position: fixed;
+    left: 350px;
+    top: 35px;
+    font-weight: bold;
+}
+
+.aplicado {
+    position: fixed;
+    left: 550px;
+    font-size: 17px;
+    top: 15px;
+    color: #c7c9cd;
+}
+
+.aplicadon {
+    position: fixed;
+    left: 550px;
+    top: 35px;
+    font-weight: bold;
+}
+
+.rentabilidade {
+    position: fixed;
+    left: 750px;
+    font-size: 17px;
+    top: 15px;
+    color: #c7c9cd;
+
+}
+
+.rentabilidaden {
+    position: fixed;
+    left: 750px;
+    top: 35px;
+    font-weight: bold;
+}
+
+/*Start Page*/
+
+.column-esq {
+    display: flex; /*Serve para colocar colunas*/
+    flex-direction: column; /*Serve para colocar colunas*/
+    float: left;
+    height: 870px;
+    width: 180px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.esquerda .column-esq .esq1 {
+    position: fixed;
+    top: 90px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq2 {
+    position: fixed;
+    top: 150px;
+    width: 90px;
+    left: 15px;
+    background-size: 900;
+    color: #6e52b9;
+}
+
+.esquerda .column-esq .esq2::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.esquerda .column-esq .esq3 {
+    position: fixed;
+    top: 230px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq4 {
+    position: fixed;
+    top: 290px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq3::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+.esquerda .column-esq .esq4::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.graph {
+    position: fixed;
+    top: 90px;
+    left: 230px;
+}
+
+.dividendos {
+    display: flex; /*Serve para colocar colunas*/
+    flex-direction: column; /*Serve para colocar colunas*/
+    height: 500px;
+    width: 380px;
+    margin-right: 30px;
+    margin-top: 20px;
+    float: right; /*Passar para o lado*/
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.div-tit {
+    position: fixed;
+    left: 174vh;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divis {
+    position: fixed;
+    left: 164vh;
+    top: 200px;
+}
