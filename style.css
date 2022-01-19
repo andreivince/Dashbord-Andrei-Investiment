@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -159,6 +160,118 @@ body {
 
 }
 
+.esquerda .column-esq .esq5 {
+    position: fixed;
+    top: 360px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq5::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.esquerda .column-esq .esq6 {
+    position: fixed;
+    top: 430px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq6::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+.esquerda .column-esq .esq7 {
+    position: fixed;
+    top: 500px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq7::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.esquerda .column-esq .esq8 {
+    position: fixed;
+    top: 570px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq8::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.esquerda .column-esq .esq9 {
+    position: fixed;
+    top: 640px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq9::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
+
+.esquerda .column-esq .esq10 {
+    position: fixed;
+    top: 710px;
+    width: 90px;
+    left: 15px;
+}
+
+.esquerda .column-esq .esq10::before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    bottom: 45px;
+    left: 50%;
+    height: 2px;
+    background: #c0c0c2;
+    transform: translateX(-50%);
+
+}
 .graph {
     position: fixed;
     top: 90px;
@@ -168,24 +281,29 @@ body {
 .dividendos {
     display: flex; /*Serve para colocar colunas*/
     flex-direction: column; /*Serve para colocar colunas*/
-    height: 500px;
-    width: 380px;
-    margin-right: 30px;
+    height: 840px;
+    width: 410px;
+    margin-right: 20px;
     margin-top: 20px;
     float: right; /*Passar para o lado*/
     font-family: 'Roboto', sans-serif;
     background-color: white;
+    border-radius: 10px;
 }
 
 .div-tit {
     position: fixed;
-    left: 174vh;
-    top: 100px;
-    font-family: 'Roboto', sans-serif;
+    left: 172vh;
+    top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(126, 125, 125);
 }
 
 .divis {
     position: fixed;
-    left: 164vh;
-    top: 200px;
+    left: 162vh;
+    top: 190px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(63, 63, 63);
 }
